@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "es2015"],
+    "types": ["jest", "node"],
+    "jsx": "react",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules", "**/*.test.(ts|tsx)"],
+  "include": ["src"],
+  "types": ["node", "jest", "@testing-library/jest-dom"]
+}
